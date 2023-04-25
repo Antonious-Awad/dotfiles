@@ -7,6 +7,20 @@
 ![screenshot](https://i.redd.it/p08rqq1fgxva1.png)
 
 ---
+# Spotify
+1. Intall [Spicetify Themes](https://github.com/spicetify/spicetify-themes)
+2. Set Current theme to Sleek
+```bash
+spicetify config current_theme Sleek
+``` 
+3. Set color scheme to nord
+```bash
+  spicetify config color_scheme nord
+```
+---
+# Discord
+- Follow the steps in this [repository](https://github.com/orblazer/discord-nordic)
+---
 ## ArcMenu Configuration
 - Simple enough, I have configured `~/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com/stylesheet.css` as follows:
 ```css
