@@ -1,0 +1,21 @@
+Changelog
+------------------------------
+Botein - Conky Theme
+[ Taurus Themes Pack ] 
+
+by Closebox73
+------------------------------
+
+v1.0
+date : 10 Agt 2022
+-	Initial release
+
+
+v2.0
+date : 07 Feb 2023
+-	Add override_utf8_locale line
+-	Change main color
+-	Add License
+-	Add Changelog file
+-	A few changes to the script
+-	Minimize archive size
