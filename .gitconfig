@@ -1,0 +1,6 @@
+[pull]
+	rebase = false
+[core]
+	editor = vim
+[push]
+	autoSetupRemote = true
