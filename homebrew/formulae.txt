@@ -1,0 +1,14 @@
+bitwarden-cli
+borders
+docker
+lua
+ncurses
+neofetch
+neovim
+nowplaying-cli
+perl
+sketchybar
+sqlite
+stow
+tmux
+tree
