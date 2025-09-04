@@ -1,3 +1,17 @@
+# Assets
 assets
-.gitconfig.template
-.DS_Store
+
+# git files
+\.gitconfig.template
+\.gitignore
+\.git
+\.gitmodules
+
+# Macos
+\.DS_Store
+
+# VSCode
+\.vscode
+
+# Project
+^/README.*
