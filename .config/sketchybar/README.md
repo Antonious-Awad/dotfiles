@@ -52,11 +52,7 @@ This directory contains the configuration for [Sketchybar](https://github.com/Fe
 
 2. Install additional dependencies:
 
-   ```bash
-   brew install jq
-   ```
-
-   and install [sketchybar-app-font-bg](https://github.com/SoichiroYamane/sketchybar-app-font-bg) using the guide in the repo
+   - [sketchybar-app-font-bg](https://github.com/SoichiroYamane/sketchybar-app-font-bg) using the guide in the repo
 
 3. Link the configuration:
 
