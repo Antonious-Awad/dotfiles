@@ -1,2 +1,6 @@
 .DS_Store
 .gitconfig
+
+# Cava
+*.frag
+*.vert

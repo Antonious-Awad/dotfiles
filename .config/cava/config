@@ -1,0 +1,27 @@
+[general]
+mode = normal
+sensitivity = 450
+framerate = 60
+autosens = 1
+lower_cutoff_freq = 50
+higher_cutoff_freq = 10000
+
+[output]
+method = ncurses
+channels = stereo
+
+[color]
+gradient = 1
+gradient_count = 6
+gradient_color_1 = '#e06c75'
+gradient_color_2 = '#d19a66'
+gradient_color_3 = '#e5c07b'
+gradient_color_4 = '#98c379'
+gradient_color_5 = '#56b6c2'
+gradient_color_6 = '#c678dd'
+
+[smoothing]
+integral = 90
+monstercat = 1
+waves = 0
+gravity = 150

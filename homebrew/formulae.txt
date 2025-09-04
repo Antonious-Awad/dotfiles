@@ -1,4 +1,5 @@
 bitwarden-cli
+cava
 borders
 docker
 lua
