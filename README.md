@@ -39,4 +39,4 @@ cd dotfiles
 stow .
 ```
 
-or clone the repo anywhere you like and run `stow . -t ~` to symlink the dotfiles
+- you can edit `.stowrc` to specify the target directory
