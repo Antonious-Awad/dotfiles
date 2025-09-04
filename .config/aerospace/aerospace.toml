@@ -14,15 +14,16 @@ after-login-command = []
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
 # after-startup-command = []
 
-# Run Sketchybar together with AeroSpace
+# Run Sketchybar and Borders together with AeroSpace
 # sketchybar has a built-in detection of already running process,
 # so it won't be run twice on AeroSpace restart
-after-startup-command = ['exec-and-forget sketchybar']
+after-startup-command = ['exec-and-forget sketchybar', 'exec-and-forget borders']
 
 # Notify Sketchybar about workspace change
 exec-on-workspace-change = ['/bin/bash', '-c',
     'sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE'
 ]
+
 
 # Start AeroSpace at login
 start-at-login = true
