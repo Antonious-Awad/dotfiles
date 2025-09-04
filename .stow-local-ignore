@@ -15,3 +15,6 @@ assets
 
 # Project
 ^/README.*
+
+# Stow
+.stowrc
