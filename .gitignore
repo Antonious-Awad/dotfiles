@@ -2,5 +2,8 @@
 .gitconfig
 
 # Cava
-*.frag
-*.vert
+.config/cava/shaders
+
+# Unwanted configs
+raycast
+iterm2
