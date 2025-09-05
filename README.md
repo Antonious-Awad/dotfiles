@@ -7,6 +7,7 @@
 ## 📸 Preview
 
 ![preview](./assets/preview.png)
+![preview2](./assets/preview02.png)
 
 ## 🛠️ Installation
 
