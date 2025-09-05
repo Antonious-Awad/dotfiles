@@ -42,4 +42,3 @@ A minimal and clean Zen browser theme with custom userChrome.css and userContent
 # Resources
 
 - [catppuccin/zen-browser](https://github.com/catppuccin/zen-browser/tree/main)
-- [One Dark Pro wallpapers](https://github.com/Narmis-E/onedark-wallpapers)

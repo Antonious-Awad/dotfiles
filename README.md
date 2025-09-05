@@ -41,3 +41,7 @@ stow .
 ```
 
 - you can edit `.stowrc` to specify the target directory
+
+## Resources
+
+- [One Dark Pro wallpapers](https://github.com/Narmis-E/onedark-wallpapers)
