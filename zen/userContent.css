@@ -30,7 +30,7 @@
 
     .search-wrapper .logo-and-wordmark .logo {
       background: url("zen-logo-one-dark.svg"),
-        url("https://raw.githubusercontent.com/IAmJafeth/zen-browser/main/themes/Macchiato/Mauve/zen-logo-macchiato.svg")
+        url("https://raw.githubusercontent.com/Antonious-Awad/dotfiles/refs/heads/master/zen/zen-logo-one-dark.svg")
           no-repeat center !important;
       display: inline-block !important;
       height: 82px !important;
