@@ -1,5 +1,9 @@
 # One Dark Pro Darker - Color Palette Reference
 
+## Palette Reference
+
+![palette](./one-dark-pro-pallete.png)
+
 ## Primary Colors
 
 | Purpose                  | Hex Code  | Description                    | Preview                                                                                                                  |
