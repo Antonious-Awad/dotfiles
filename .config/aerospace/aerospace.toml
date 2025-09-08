@@ -76,7 +76,7 @@ outer.bottom =     5
 outer.top = [
                 { monitor."built-in" = 15 },  # Smaller top gap for laptop screen (e.g., below notch or minimal bar)
                 { monitor."XG27ACS" = 50 },   # Larger top gap for 27" monitor
-                { monitor.secondary = 36 },   # Larger top gap for external monitor (to avoid overlapping sketchybar)
+                { monitor.secondary = 50 },   # Larger top gap for external monitor (to avoid overlapping sketchybar)
                 36,                           # Default fallback gap for any unmatched monitors
             ]
 outer.right =      5
