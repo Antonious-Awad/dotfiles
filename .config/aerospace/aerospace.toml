@@ -199,6 +199,15 @@ run = ['move-node-to-workspace S']
 if.app-id = 'com.spotify.client'
 run = ['move-node-to-workspace M']
 
+[[on-window-detected]]
+if.app-id = 'me.timschneeberger.galaxybudsclient'
+run = ["layout floating"]
+
+[[on-window-detected]]
+if.app-id = "app.zen-browser.zen"
+if.window-title-regex-substring = "(?i)\bextension\b"
+run = ["layout floating"]
+
 [workspace-to-monitor-force-assignment]
 S = 'main'
 D = 'main'
