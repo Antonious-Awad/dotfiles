@@ -18,7 +18,7 @@ after-login-command = []
 # sketchybar has a built-in detection of already running process,
 # so it won't be run twice on AeroSpace restart
 after-startup-command = [
-    'exec-and-forget sketchybar',
+    # 'exec-and-forget sketchybar',
     'exec-and-forget borders'
     ]
 
@@ -76,12 +76,17 @@ inner.horizontal = 8
 inner.vertical =   8
 outer.left =       5
 outer.bottom =     5
-outer.top = [
-                { monitor."built-in" = 15 },  # Smaller top gap for laptop screen (e.g., below notch or minimal bar)
-                { monitor."XG27ACS" = 50 },   # Larger top gap for 27" monitor
-                { monitor.secondary = 50 },   # Larger top gap for external monitor (to avoid overlapping sketchybar)
-                36,                           # Default fallback gap for any unmatched monitors
-            ]
+
+# For Sketchybar
+# outer.top = [
+#                 { monitor."built-in" = 15 },  # Smaller top gap for laptop screen (e.g., below notch or minimal bar)
+#                 { monitor."XG27ACS" = 50 },   # Larger top gap for 27" monitor
+#                 { monitor.secondary = 50 },   # Larger top gap for external monitor (to avoid overlapping sketchybar)
+#                 36,                           # Default fallback gap for any unmatched monitors
+#             ]
+
+# Without Sketchybar
+outer.top = 4
 outer.right =      5
 
 # 'main' binding mode declaration
