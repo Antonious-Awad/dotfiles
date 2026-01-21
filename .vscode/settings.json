@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["sketchybar"]
+  "cSpell.words": ["sketchybar"],
+  "Lua.diagnostics.globals": ["hs"]
 }
