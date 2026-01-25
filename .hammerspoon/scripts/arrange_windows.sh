@@ -54,11 +54,11 @@ aerospace layout tiles horizontal
 # Assumption after moves: windows appended roughly in order Chrome → Slack → Kitty (left to right)
 # Focused is on Kitty (last moved)
 
-# Focus left → should focus Kitty's left neighbor (Slack)
-aerospace focus left
+# Focus right → should focus Kitty's right neighbor (Slack)
+aerospace focus right
 
-# Join Slack with the right window (Kitty) → creates vertical container for Slack + Kitty
-aerospace join-with right
+# Join Slack with the left window (Kitty) → creates vertical container for Slack + Kitty
+aerospace join-with left
 
 # Optional: balance sizes after join (looks nicer)
 aerospace balance-sizes
