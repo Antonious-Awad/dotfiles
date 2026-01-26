@@ -1,3 +1,7 @@
+-- allow osascript
+hs.allowAppleScript(true)
+
+-- arrange_windows
 local scriptPath = "./scripts/arrange_windows.sh"
 
 local function runArrangeWindows()
