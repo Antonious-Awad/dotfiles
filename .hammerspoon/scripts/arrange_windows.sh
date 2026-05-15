@@ -48,17 +48,18 @@ aerospace workspace A
 
 # Force root container to tiles + horizontal **only on this workspace**
 # (this affects only the root of A; nested containers keep their orientation)
-aerospace layout tiles horizontal
+aerospace layout h_accordion
+aerospace layout h_tiles
 
 # Now arrange the grouping
 # Assumption after moves: windows appended roughly in order Chrome → Slack → Kitty (left to right)
 # Focused is on Kitty (last moved)
 
-# Focus right → should focus Kitty's right neighbor (Slack)
-aerospace focus right
+# Focus left → should focus Kitty's left neighbor (Slack)
+aerospace focus left
 
-# Join Slack with the left window (Kitty) → creates vertical container for Slack + Kitty
-aerospace join-with left
+# Join Slack with the right window (Kitty) → creates vertical container for Slack + Kitty
+aerospace join-with right
 
 # Optional: balance sizes after join (looks nicer)
 aerospace balance-sizes
